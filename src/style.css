@@ -1,0 +1,131 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5; /* Fondo gris claro */
+  color: #333; /* Texto principal */
+  margin: 0;
+}
+
+header {
+  background-color: #3498db; /* Azul */
+  color: #fff; /* Texto blanco */
+  text-align: center;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  background-color: #e74c3c; /* Rojo melancólico */
+  padding: 10px 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+/* Estilos para enlaces */
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f5f5f5; /* Blanco al pasar el mouse */
+}
+
+main {
+  margin: 20px;
+}
+
+section {
+  background-color: #fff; /* Fondo blanco para secciones */
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #e74c3c; /* Rojo melancólico para encabezado */
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Estilos para imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #3498db; /* Azul para imágenes */
+  max-height: 200px; /* Altura máxima deseada para todas las imágenes */
+  width: auto;
+}
+
+/* Estilos para botones */
+.button {
+  background-color: #3498db; /* Azul */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background-color: #e74c3c; /* Rojo melancólico al pasar el mouse */
+  transform: scale(1.05); /* Efecto de escala al pasar el mouse */
+}
+
+/* Estilos para la tabla de discografía */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #e74c3c; /* Rojo melancólico para el borde */
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0c69e; /* Fondo más claro para encabezado */
+}
+
+/* Estilos de pie de página */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #e74c3c; /* Rojo melancólico para el pie de página */
+  color: #fff; /* Texto blanco */
+}
+
+/* Estilos para la sección de imágenes */
+section.images {
+  text-align: center;
+}
+
+/* Estilos para el botón "Escuchar Música" */
+/* Estilos para el botón "Escuchar Música" */
+.button.listen {
+  display: block;
+  margin: 20px auto; /* Centrar el botón horizontalmente */
+  text-align: center; /* Centrar el texto dentro del botón */
+}
